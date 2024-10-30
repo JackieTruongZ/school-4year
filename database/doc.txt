@@ -1,0 +1,65 @@
+mục tiêu môn học : 
+thiết kế được cơ sỏ dữ liệu theo mô hình quan hệ 
+xây dựng đưươc lược đồ quan hệ một cách phù hợp 
+
+1960 : cơ sở dữ liệu ra đời 
+
+có 6 đặc tính 
+
+tính tự mô tả 
+tính độc lập giuex chương trình và dữ liệu 
+rính trừu tượng dữ liệu 
+tính nhất quán 
+hỗ trợ nhiều khung nhìn 
+chia sẻ dữ liệu và nhiều người dùng 
+
+
+người sử dụng csdl
+
+    quản trị viên 
+    thiết kế viên 
+    người dùng cuối 
+
+Mô hình dữ liệu 
+
+    kiểu dữ liệu 
+    các liên kết 
+    các ràng buộc 
+
+
+lược đồ 
+thể hiện csdl 
+
+
+tai sao can eer
+
+khai niem về tính kế thừa
+
+trong cơ sở dữ liệu trường học thì chúng ta có 
+
+con người : + họ tên 
+            + ngày sinh
+            + giới tính 
+            + số điện thoại 
+            + địa chỉ 
+
+học sinh : + mã sinh viên 
+           + điểm
+
+giáo viên : + mã giáo viên 
+            + lương 
+nhân viên 
+
+   
+Mô hình quan hệ 
+
+        - Quan hệ (Relation)
+        - Thuộc tính(Attribute)
+        - Lược đồ (schema)
+        - Bộ (Tuple)
+        - Miền giá trị ( Domain ) 
+    
+
+đại số quan hệ 
+
+mô hình quan hệ đảm bảo tính đồng bộ nhất quán consistantce 

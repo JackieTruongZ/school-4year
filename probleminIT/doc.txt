@@ -1,0 +1,36 @@
+
+
+Tính toán hiệu năng cao 
+hệ thống tính toán asong song 
+
+GPU và pgGPU
+
+hệ thống xử lý phân tán
+
+cluster computing 
+
+volunteer computing 
+grid computing
+
+cloud computing
+
+DAAS
+
+top500.org 
+
+
+Khảo sát các hệ thống thành phố thông minh 
+tại các quốc gia trên thế giới 
+
+Kiến trúc  : - ITU-T
+             - FG-SSC
+OneM2M
+
+làm chuyên đề khóa luận :
+nghỉ tuần 8 9 10 11
+tới tuần 12 13 14 15 trình bày khóa luận 
+mỗi bạn trình bày 7-8p
+1 bản doc và 1 bản powerpoint
+
+
+

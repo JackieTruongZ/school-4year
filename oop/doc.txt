@@ -1,0 +1,100 @@
+
+
+Lớp trừu tượng 
+
+abstract class Shape {
+    protected int x,y;
+    Shape (int _x , int _y) {
+        x=_x;
+        y= _y;
+    }
+}
+
+class Circle extends Shape {
+    int r;
+    public Circle(int _x, int _y, int _r) {
+        super(_x,_y);
+        r=_r;
+    }
+}
+
+super dùng để gọi lại contructor của lớp cha 
+tương tự cũng có thể dùng super để gọi lại thuộc tính hoặc phương thức khác trong lớp cha 
+    
+    >> super.methodName()
+
+phuong thuc truu tương
+
+abstract class Shape{
+    protected int x,y;
+     
+    abstract public void draw();
+    abstract public void erase();
+
+    public void moveTo(int x1, int y1) {
+        x = x1;
+        y = y1;
+        erase();
+        draw();
+
+    }
+}
+
+class Circle extends Shape {
+    int r ;
+    public Circle(int _x, int _y, int _r) {
+        super(_x,_y);
+        r=_r;
+        draw();
+
+    }
+
+    public void erase () {
+        System.out.print("Erase at ( " + x + "," + y +" )");
+    }
+    
+    public void draw () {
+        System.out.print("Draw at ( " + x + "," + y +" )");
+
+    }
+
+}
+
+Interface - giao dien 
+
+Chỉ bao gồm các method, hằng số , và mặc định là public 
+
+
+khởi tạo sử dụng interface <tên giao diện >
+
+sử dụng vào class -> class <tên class> implements <tên giao diện >
+
+vd :
+
+interface Action {
+    void moveTo(int x, int y ) ;
+    void erase() ;
+    void draw();
+}
+
+class Circle implements Action {
+    int x,y,r;
+    Circle1(int _x, int _y, int _r) {
+        ...
+    }
+    
+    public void erase() {...}
+    public void draw() {...}
+    public void moveTo(int x1, int y1 ) {...}
+
+}
+
+Lớp trừu tượng vẫn có thể cài đặt giao diện 
+
+
+
+================================================================================
+
+=========   Lỗi và ngoại lệ ==============================
+
+
